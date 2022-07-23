@@ -11,4 +11,4 @@
 
 An HTML element is defined by a start tag, some content, and an end tag:
 
-<tagname> Content goes here... </tagname>
+`<tagname>` Content goes here... `</tagname>`
