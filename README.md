@@ -24,3 +24,11 @@ The HTML element is everything from the start tag to the end tag:
 | `<h1>` | My First Heading | `</h1>` |
 | `<p>` | My first paragraph | `</p>` |
 | `<br>` |	none | none |
+
+Note: Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+
+## 2. Web Browsers
+
+The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
+
+A browser does not display the HTML tags, but uses them to determine how to display the document:
