@@ -1,1 +1,3 @@
-#Demo* bro
+#Demo*
+
+Created my first repository to learn about HTML knowledge.
