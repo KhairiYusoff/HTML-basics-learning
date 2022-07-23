@@ -57,12 +57,41 @@ The `<!DOCTYPE>` declaration for HTML5 is:
 
 ## 6. HTML Headings
 
-HTML headings are defined with the <h1> to <h6> tags.
+HTML headings are defined with the `<h1>` to `<h6>` tags.
 
-<h1> defines the most important heading. <h6> defines the least important heading: 
+`<h1>` defines the most important heading. `<h6>` defines the least important heading: 
   
   ```
-      <h1>My Heading 1</h1>
-    <h2>My Heading 2</h2>
-    <h3>My Heading 3</h3>
+  <h1>My Heading 1</h1>
+  
+  <h2>My Heading 2</h2>
+  
+  <h3>My Heading 3</h3>
   ```
+## 7. HTML Paragraphs
+
+HTML paragraphs are defined with the `<p>` tag:
+
+```
+<p>This is a paragraph.</p>
+
+<p>This is another paragraph.</p>
+```
+
+## 8. HTML Links
+
+HTML links are defined with the `<a>` tag:
+
+`<a href="https://www.google.com/">This is a Link</a>`
+
+The link's destination is specified in the `href` attribute. 
+
+Attributes are used to provide additional information about HTML elements.
+
+## 9. HTML Images
+
+HTML images are defined with the `<img>` tag.
+
+The source file (`src`), alternative text (`alt`), `width`, and `height` are provided as attributes:
+
+`<img src="khairi.jpg" alt="khairi_image" width="100" height="200">`
