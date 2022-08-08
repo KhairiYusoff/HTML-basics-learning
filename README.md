@@ -95,3 +95,11 @@ HTML images are defined with the `<img>` tag.
 The source file (`src`), alternative text (`alt`), `width`, and `height` are provided as attributes:
 
 `<img src="khairi.jpg" alt="khairi_image" width="100" height="200">`
+
+## 10. HTML <div> Tag
+
+The `<div>` tag defines a division or a section in an HTML document.
+
+The `<div>` tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+
+The `<div>` tag is easily styled by using the class or id attribute.
