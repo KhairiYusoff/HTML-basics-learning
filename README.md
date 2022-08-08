@@ -96,7 +96,7 @@ The source file (`src`), alternative text (`alt`), `width`, and `height` are pro
 
 `<img src="khairi.jpg" alt="khairi_image" width="100" height="200">`
 
-## 10. HTML <div> Tag
+## 10. HTML `<div>` Tag
 
 The `<div>` tag defines a division or a section in an HTML document.
 
