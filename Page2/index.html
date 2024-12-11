@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page SPA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">MyBrand</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Content Sections -->
+        <div id="content">
+            <!-- Home Section -->
+            <section id="home" class="page active">
+                <div class="hero">
+                    <h1>Welcome to Our Amazing Product</h1>
+                    <p>Discover innovation that transforms your world</p>
+                    <button id="learnMoreBtn">Learn More</button>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="page">
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>We are a passionate team dedicated to creating innovative solutions that make a difference.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <h3>Innovation</h3>
+                            <p>Cutting-edge technology at your fingertips</p>
+                        </div>
+                        <div class="feature">
+                            <h3>Quality</h3>
+                            <p>Commitment to excellence in every detail</p>
+                        </div>
+                        <div class="feature">
+                            <h3>Support</h3>
+                            <p>We're here for you, every step of the way</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="page">
+                <div class="contact-content">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 MyBrand. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
